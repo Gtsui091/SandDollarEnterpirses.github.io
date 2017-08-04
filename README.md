@@ -1,1 +1,1 @@
-# SandDollarEnterpirses.github.io
+# SandDollarEnterprises.github.io
