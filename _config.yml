@@ -1,32 +1,63 @@
-# Permalinks
-permalink:           pretty
-
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
-
-# Gems
+# Build settings
 gems:
+  - jemoji
   - jekyll-paginate
-  - jekyll-gist
+
+# Site settings
+title: "Sand Dollar Enterprises"
+description: > # this means to ignore newlines until "email:"
+   Walk the Wild Side
+
+email: ceo@sanddollarenterprises.com
+#blog logo
+logo: "/assets/images/WWSSDEF.png"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/images/sign.jpg"
+
+name: 'Sand Dollar Enterprises'
+author: 'Sand Dollar Enterprises'
+author_image: "/assets/images/WWSSDEF.png"
+
+paginate:	5
+
+url: "http://sanddollarenterprises.***.***" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+#twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+google_analytics: UA-104121503-1
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	
+    desc: 
+    share_url: 
+    share_title: 
+    share_link: 
+
+  - icon:	facebook
+    url:	https://www.facebook.com/sanddollarenterprises/
+    desc: Connect with us on facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	
+    desc:	
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
