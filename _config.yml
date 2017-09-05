@@ -35,11 +35,11 @@ google_analytics: UA-104121503-1
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	
-    desc: 
-    share_url: 
-    share_title: 
-    share_link: 
+    url:	https://twitter.com/sanddollarent
+    desc: Follow us on Twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
 
   - icon:	facebook
     url:	https://www.facebook.com/sanddollarenterprises/
@@ -58,6 +58,13 @@ social:
 #  - icon:	google-plus
 #    url:	https://google.com/???
 #    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
+
+  - icon:	fa-linkedin
+    url:	https://www.linkedin.com/groups/13549010
+    desc:	Connect with us on LinkedIn
 #    share_url:
 #    share_title:
 #    share_link:
