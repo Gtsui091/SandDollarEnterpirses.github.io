@@ -1,0 +1,70 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
+# Site settings
+title: "Sand Dollar Enterprises"
+description: > # this means to ignore newlines until "email:"
+   Walk the Wild Side
+
+email: ceo@sanddollarenterprises.com
+#blog logo
+logo: "/assets/images/WWSSDEF.png"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/images/sign.jpg"
+
+name: 'Sand Dollar Enterprises'
+author: 'Sand Dollar Enterprises'
+author_image: "/assets/images/WWSSDEF.png"
+
+paginate:	5
+
+url: "http://sanddollarenterprises.***.***" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+#twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+google_analytics: UA-104121503-1
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/sanddollarent
+    desc: Follow us on Twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	facebook
+    url:	https://www.facebook.com/sanddollarenterprises/
+    desc: Connect with us on facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	
+    desc:	
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:	instagram
+    url:	https://www.instagram.com/sanddollarenterprises/?hl=en
+    desc:	Follow us on Instagram
+#    share_url:
+#    share_title:
+#    share_link:
+
+  - icon:	linkedin
+    url:	https://www.linkedin.com/groups/13549010
+    desc:	Connect with us on LinkedIn
+#    share_url:
+#    share_title:
+#    share_link:

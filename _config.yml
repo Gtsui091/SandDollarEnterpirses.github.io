@@ -1,70 +1,65 @@
-# Build settings
-gems:
-  - jemoji
-  - jekyll-paginate
+url: https://sanddollarenterprises.github.io
+baseurl:
 
 # Site settings
-title: "Sand Dollar Enterprises"
-description: > # this means to ignore newlines until "email:"
-   Walk the Wild Side
+title: Awesome Title
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-email: ceo@sanddollarenterprises.com
-#blog logo
-logo: "/assets/images/WWSSDEF.png"
-float_logo: true # true, false (default)
 
-# blog cover
-cover: "/assets/images/sign.jpg"
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
 
-name: 'Sand Dollar Enterprises'
-author: 'Sand Dollar Enterprises'
-author_image: "/assets/images/WWSSDEF.png"
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
-paginate:	5
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
 
-url: "http://sanddollarenterprises.***.***" # the base hostname & protocol for your site
-baseurl: ""
-#used to display twitter cards
-#twitter_handle: '@dirkfabisch'
-
-#fill in disqus shortname to use disqus
-#disqus: disqus-shortname
-
-google_analytics: UA-104121503-1
-
-# social icons and sharing options
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - icon:	twitter
-    url:	https://twitter.com/sanddollarent
-    desc: Follow us on Twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
 
-  - icon:	facebook
-    url:	https://www.facebook.com/sanddollarenterprises/
-    desc: Connect with us on facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
-  - icon:	github
-    url:	
-    desc:	
-    share_url:
-    share_title:
-    share_link:
-
-  - icon:	instagram
-    url:	https://www.instagram.com/sanddollarenterprises/?hl=en
-    desc:	Follow us on Instagram
-#    share_url:
-#    share_title:
-#    share_link:
-
-  - icon:	linkedin
-    url:	https://www.linkedin.com/groups/13549010
-    desc:	Connect with us on LinkedIn
-#    share_url:
-#    share_title:
-#    share_link:
+# Build settings
+markdown: kramdown
+permalink: pretty
