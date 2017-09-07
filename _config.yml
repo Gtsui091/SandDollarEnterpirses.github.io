@@ -2,16 +2,16 @@ url: https://sanddollarenterprises.github.io
 baseurl:
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Sand Dollar Enterprises
+email: ceo@sanddollarenterprises.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Amy Coghlan
   pic: 1
-  position: Lead Designer
+  position: CEO
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Gordon Tsui
   pic: 2
-  position: Lead Marketer
+  position: CEO
   social:
     - title: twitter
       url: #
@@ -31,7 +31,7 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Melanie Ang
   pic: 3
   position: Lead Developer
   social:
@@ -45,20 +45,18 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/sanddollarent
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/sanddollarenterprises/
+  - title: instagram
+    url: https://www.instagram.com/sanddollarenterprises/?hl=en
+  - title: linkedin
+    url: https://www.linkedin.com/groups/13549010
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 
+  - line: Vancouver, BC
 
 # Build settings
 markdown: kramdown
